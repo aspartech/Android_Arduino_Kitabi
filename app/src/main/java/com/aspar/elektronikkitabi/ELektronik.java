@@ -1,6 +1,8 @@
 package com.aspar.elektronikkitabi;
 
-public class ELektronik {
+import java.io.Serializable;
+
+public class ELektronik implements Serializable {
 
     String name;
     String tanim;
